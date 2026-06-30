@@ -133,7 +133,7 @@ Java version: **Java 17+**
 |------|--------|--------|
 | Week 1 | Design Patterns and Principles | ✅ Done |
 | Week 1 | Data Structures and Algorithms | ✅ Done |
-| Week 2 | PL/SQL Programming | 🔄 In Progress |
+| Week 2 | PL/SQL Programming | ✅ Done |
 | Week 2 | TDD and Logging Framework | ⏳ Pending |
 | Week 3 | Spring Core and Maven | ⏳ Pending |
 | Week 3 | Spring Data JPA with Hibernate | ⏳ Pending |
