@@ -1,122 +1,100 @@
 # DN5-JavaFSE-Solutions
 
-Solutions for Cognizant's **Digital Nurture 5.0 – Deep Skilling Program**  
+Solutions for **Cognizant Digital Nurture 5.0 (DN5) – Deep Skilling Program**
+
+**Track:** Java Full Stack Engineer (Java FSE)
+
+---
+
+# About
+
+This repository contains my hands-on exercise solutions completed as part of the **Cognizant Digital Nurture 5.0 (DN5)** Deep Skilling Program.
+
+The program focuses on building industry-ready Java Full Stack development skills through practical assignments covering software engineering fundamentals, Spring ecosystem, Microservices, React, Git, and related enterprise technologies.
+
+**Student:** Dev Sharma
+
+**University:** Lovely Professional University
+
+**Degree:** B.Tech Computer Science and Engineering (2023–2027)
+
 **Track:** Java Full Stack Engineer (FSE)
 
 ---
 
-## About
+# Technologies Used
 
-This repository contains my hands-on exercise solutions for the Cognizant **Digital Nurture 5.0 (DN5)** Deep Skilling Program.
-
-The program focuses on building enterprise Java Full Stack development skills through practical exercises covering software engineering principles, testing, Spring Framework, Microservices, React, DevOps, and Cloud technologies.
-
-- **University:** Lovely Professional University
-- **Program:** B.Tech Computer Science and Engineering (2023–2027)
-- **GitHub:** https://github.com/dev-sharma-ui
-- **Java Version:** Java 17+
-- **Build Tool:** Apache Maven
+- Java 21
+- Spring Framework
+- Spring Boot
+- Spring Data JPA
+- Hibernate
+- Spring REST
+- Spring Cloud
+- Microservices
+- React (Vite)
+- Maven
+- JUnit 5
+- Mockito
+- SLF4J
+- PL/SQL
+- Git
+- GitHub
 
 ---
 
 # Repository Structure
 
 ```
-DN5-JavaFSE-Solutions/
+DN5-JavaFSE-Solutions
 │
-├── Week1_Engineering_Concepts/
-│   ├── Design_Patterns/
-│   │   ├── SingletonPatternExample/
-│   │   └── FactoryMethodPatternExample/
-│   │
-│   └── DSA/
-│       ├── EcommercePlatformSearch/
-│       └── FinancialForecasting/
+├── Week1_Engineering_Concepts
 │
-├── Week2_Programming_Languages/
-│   └── PL_SQL/
+├── Week2_PLSQL_Exercise1_and_3
 │
-├── Week3_JUnit5_Mockito/
-│   ├── 1_JUnit_Basic_Testing_Exercises/
-│   │   └── junit-basic-testing-exercises/
-│   │
-│   ├── 2_Mockito_Exercises/
-│   │   └── mockito-exercises/
-│   │
-│   └── 3_SLF4J_Logging_Exercises/
-│       └── slf4j-logging-exercises/
+├── Week3_JUnit5_Mockito
 │
-├── Week4_Spring_Core_Maven/
-├── Week5_Spring_Data_JPA/
-├── Week6_Spring_REST/
-└── Week7_Microservices_React_Cloud/
+├── Week4_Spring_Frameworks
+│   ├── Spring_Core_Maven
+│   ├── Spring_Data_JPA
+│   ├── Spring_REST
+│   └── Microservices
+│
+├── Week5_React
+│
+├── Week6_Git_CICD
+│   └── Git
+│
+├── Week7_DevOps_Cloud_GenAI
+│
+└── README.md
 ```
 
 ---
 
-# Completed Modules
+# Course Modules
 
 ## Week 1 – Engineering Concepts
 
 ### Design Patterns
 
-### Exercise 1 – Singleton Pattern
-
-**Concepts Covered**
-
-- Singleton Design Pattern
-- Private Constructor
-- Static Instance
-- Global Access Point
-
----
-
-### Exercise 2 – Factory Method Pattern
-
-**Concepts Covered**
-
+- Singleton Pattern
 - Factory Method Pattern
-- Interfaces
-- Abstract Factory
-- Polymorphism
-- Open/Closed Principle
 
----
+### Data Structures & Algorithms
 
-## Data Structures & Algorithms
-
-### Exercise 2 – E-Commerce Platform Search
-
-**Concepts Covered**
-
-- Linear Search
-- Binary Search
+- E-Commerce Search Application
+- Financial Forecasting
 - Time Complexity Analysis
-- Sorting Requirement
-
----
-
-### Exercise 7 – Financial Forecasting
-
-**Concepts Covered**
-
 - Recursion
-- Memoization
-- Dynamic Programming Basics
-- Time Complexity Optimization
+- Binary Search
+- Linear Search
 
 ---
 
-# Week 2 – Programming Languages
+## Week 2 – PL/SQL Programming
 
-## PL/SQL
-
-Completed Exercises
-
-- Control Structures
-- Stored Procedures
-
-**Concepts Covered**
+Completed exercises on:
 
 - Variables
 - Conditional Statements
@@ -128,57 +106,23 @@ Completed Exercises
 
 ---
 
-# Week 3 – JUnit, Mockito & Logging
+## Week 3 – JUnit 5, Mockito & Logging
 
-## 1. JUnit 5 Basic Testing
+### JUnit 5
 
-Completed Exercises
-
-- Setting Up JUnit
-- Writing Basic Unit Tests
-- Assertions
-- Arrange–Act–Assert Pattern
-- Setup and Teardown Methods
-
-**Concepts Covered**
-
-- JUnit 5
-- Maven
+- Unit Testing
 - Assertions
 - Test Lifecycle
-- Test Fixtures
-- AAA Pattern
+- Arrange-Act-Assert Pattern
 
----
+### Mockito
 
-## 2. Mockito
-
-Completed Exercises
-
-- Mocking
-- Stubbing
-- Verifying Interactions
-
-**Concepts Covered**
-
-- Mockito
 - Mock Objects
-- Dependency Isolation
-- Unit Testing Best Practices
+- Stubbing
+- Verification
 
----
+### SLF4J
 
-## 3. SLF4J Logging
-
-Completed Exercises
-
-- Logging Error Messages
-- Warning Messages
-
-**Concepts Covered**
-
-- SLF4J
-- Logger
 - INFO Logging
 - WARN Logging
 - ERROR Logging
@@ -186,61 +130,119 @@ Completed Exercises
 
 ---
 
-# Technologies Used
+## Week 4 – Spring Frameworks
 
-- Java 17
-- Apache Maven
-- JUnit 5
-- Mockito
-- SLF4J
-- Logback
-- PL/SQL
-- Oracle SQL
-- Git
-- GitHub
+### Spring Core & Maven
+
+- IoC Container
+- Dependency Injection
+- Spring Beans
+- XML Configuration
+- Annotation-based Configuration
+- Spring AOP
+- Maven Project Structure
+
+### Spring Data JPA
+
+- Entity Mapping
+- Repository Pattern
+- CRUD Operations
+- Hibernate
+- Spring Data JPA
+- Repository Interfaces
+
+### Spring REST
+
+- REST Controllers
+- Request Mapping
+- Path Variables
+- JSON Response
+- Spring Boot REST APIs
+- JWT Authentication (Hands-on)
+
+### Microservices
+
+- Account Microservice
+- Loan Microservice
+- API Gateway
+- Eureka Discovery Server
+- Service Registration
+- Service Discovery
 
 ---
 
-# Progress Tracker
+## Week 5 – React
 
-| Week | Module | Status |
-|------|--------|--------|
-| Week 1 | Design Patterns | ✅ Completed |
-| Week 1 | Data Structures & Algorithms | ✅ Completed |
-| Week 2 | PL/SQL Programming | ✅ Completed |
-| Week 3 | JUnit 5 Testing | ✅ Completed |
-| Week 3 | Mockito | ✅ Completed |
-| Week 3 | SLF4J Logging | ✅ Completed |
-| Week 4 | Spring Core & Maven | ⏳ In Progress |
-| Week 5 | Spring Data JPA with Hibernate | ⏳ Pending |
-| Week 6 | Spring REST using Spring Boot | ⏳ Pending |
-| Week 7 | Microservices | ⏳ Pending |
-| Week 7 | React | ⏳ Pending |
-| Week 7 | Docker, Cloud & DevOps | ⏳ Pending |
+Completed ReactJS Hands-on exercises using **React + Vite**.
+
+Topics covered:
+
+- JSX
+- Functional Components
+- Props
+- Event Handling
+- State Management
+- Conditional Rendering
+- Lists & Keys
+- Forms
+- Component Communication
+- React Project Structure
+
+---
+
+## Week 6 – Git
+
+Completed Git Hands-on Labs covering:
+
+- Git Installation & Configuration
+- Repository Initialization
+- Branching
+- Merging
+- Merge Conflict Resolution
+- Remote Repositories
+- Git Commands
+- Git Workflow
+
+---
+
+## Week 7 – DevOps, Docker, Cloud & GenAI
+
+This week primarily consists of learning modules covering:
+
+- DevOps Fundamentals
+- Docker
+- Cloud Fundamentals
+- Generative AI Fundamentals
+
+The mandatory coding exercises for this repository are completed up to the React and Git hands-on modules.
+
+---
+
+# Progress
+
+| Module | Status |
+|---------|--------|
+| Week 1 – Engineering Concepts | ✅ Completed |
+| Week 2 – PL/SQL | ✅ Completed |
+| Week 3 – JUnit5, Mockito & SLF4J | ✅ Completed |
+| Week 4 – Spring Frameworks | ✅ Completed |
+| Week 5 – React | ✅ Completed |
+| Week 6 – Git | ✅ Completed |
+| Week 7 – DevOps / Docker / Cloud / GenAI | 📘 Learning Modules |
 
 ---
 
 # How to Run
 
-Navigate to any Maven project.
+### Maven Projects
 
 ```bash
-cd <project-folder>
+mvn clean compile
 ```
-
-Compile the project
-
-```bash
-mvn compile
-```
-
-Run unit tests
 
 ```bash
 mvn test
 ```
-
-Package the project
 
 ```bash
 mvn package
@@ -248,9 +250,31 @@ mvn package
 
 ---
 
+### React Projects
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run development server
+
+```bash
+npm run dev
+```
+
+Build project
+
+```bash
+npm run build
+```
+
+---
+
 # Learning Outcomes
 
-Through this repository, I am practicing:
+Through this program, I gained practical experience in:
 
 - Object-Oriented Programming
 - SOLID Principles
@@ -262,6 +286,8 @@ Through this repository, I am practicing:
 - Logging Frameworks
 - Spring Framework
 - Spring Boot
+- Spring Data JPA
+- Hibernate
 - REST APIs
 - Microservices
 - React
@@ -270,6 +296,6 @@ Through this repository, I am practicing:
 
 ---
 
-# License
+# Repository Purpose
 
-This repository is maintained for educational purposes as part of Cognizant's **Digital Nurture 5.0 – Java Full Stack Engineer** training program.
+This repository has been created for educational purposes as part of the **Cognizant Digital Nurture 5.0 – Java Full Stack Engineer (FSE)** training program and contains my solutions to the mandatory hands-on exercises.
